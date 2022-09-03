@@ -6,5 +6,5 @@ main_blueprint = Blueprint("main_blueprint", __name__, template_folder="template
 
 @main_blueprint.route("/")
 def main_page():
-    post = get_post_all()
-    return render_template("index.html", post=post)
+    posts = get_post_all()
+    return render_template("index.html", posts=posts)
