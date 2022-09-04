@@ -47,8 +47,9 @@ def search_for_posts(query: str) -> list | list[dict]:
     return results
 
 
-def get_posts_by_pk(pk: int) -> dict:
+def get_post_by_pk(pk: int) -> dict:
     """Возвращает один пост по его идентификатору"""
     for post in get_post_all():
         if post["pk"] == pk:
             return post
+    return {}
