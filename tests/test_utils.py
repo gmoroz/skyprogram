@@ -5,6 +5,7 @@ from project.utils import (
     get_post_by_pk,
     get_posts_by_user,
     search_for_posts,
+    get_suffix,
 )
 
 
@@ -57,6 +58,14 @@ class TestUtils:
 
     def test_get_post_by_pk(self):
         assert {} == get_post_by_pk(328)
-        post = get_post_by_pk(8)
+        post = get_post_by_pk(1)
         assert post.get("content") != None
-        assert post.get("likes_count") == 45
+        assert post.get("likes_count") == 154
+
+    def test_get_suffix(self):
+        assert "1 комментарий" == get_suffix(1)
+        assert "3 комментария" == get_suffix(3)
+        assert "5 комментариев" == get_suffix(5)
+        assert "9 комментариев" == get_suffix(9)
+        assert "21 комментарий" == get_suffix(21)
+        assert "22 комментария" == get_suffix(22)
