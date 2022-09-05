@@ -31,7 +31,7 @@ def json_write(data: list[dict]) -> None:
     """Данная функция сохраняет закладки
     в json файл"""
     with open("project/data/bookmarks.json", "w") as file:
-        json.dump(data, file)
+        json.dump(data, file, indent=3)
 
 
 def get_bookmarks() -> list[dict]:

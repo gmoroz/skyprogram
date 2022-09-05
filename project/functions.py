@@ -15,3 +15,10 @@ def convert_to_link(post: str) -> str:
         if word.startswith("#"):
             post_list[index] = f'<a href="/tag/{word[1:]}">{word}</a>'
     return " ".join(post_list)
+
+
+def get_bookmarks_count() -> int:
+    """Данная функция возвращает количество
+    закладок пользователя"""
+    bookmarks = load_data("project/data/bookmarks.json")
+    return len(bookmarks)

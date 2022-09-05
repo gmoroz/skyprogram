@@ -1,5 +1,6 @@
 import logging
 from flask import Blueprint, render_template, request
+from project.functions import get_bookmarks_count
 from project.utils import (
     get_comments_by_post_id,
     get_post_all,
@@ -16,7 +17,9 @@ main_blueprint = Blueprint("main_blueprint", __name__, template_folder="template
 @main_blueprint.route("/")
 def main_page():
     posts = get_post_all()
-    return render_template("index.html", posts=posts)
+    return render_template(
+        "index.html", posts=posts, bookmarks_count=get_bookmarks_count()
+    )
 
 
 @main_blueprint.route("/posts/<post_id>")
@@ -38,7 +41,9 @@ def show_post_page(post_id):
 def tag_page(tag_name):
     posts = search_by_tag("#" + tag_name)
     if posts:
-        return render_template("search_by_tag.html", posts=posts, posts_count=len(posts))
+        return render_template(
+            "search_by_tag.html", posts=posts, posts_count=len(posts)
+        )
     return "По вашему запросу ничего не найдено"
 
 

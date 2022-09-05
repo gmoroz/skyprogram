@@ -1315,3 +1315,382 @@ INFO:werkzeug: * Detected change in 'c:\\Users\\Georgii\\Desktop\\pr\\homework\\
 INFO:werkzeug: * Restarting with stat
 WARNING:werkzeug: * Debugger is active!
 INFO:werkzeug: * Debugger PIN: 331-110-069
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 331-110-069
+INFO:werkzeug:127.0.0.1 - - [05/Sep/2022 15:46:03] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Sep/2022 15:46:03] "[36mGET /static/img/eye.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [05/Sep/2022 15:46:03] "[36mGET /static/img/bookmark.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [05/Sep/2022 15:46:03] "[36mGET /static/css/styles.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [05/Sep/2022 15:46:04] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [05/Sep/2022 15:46:10] "[36mGET /static/css/styles.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [05/Sep/2022 15:46:10] "GET /static/css/styles.min.css.map HTTP/1.1" 200 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 331-110-069
+INFO:werkzeug:127.0.0.1 - - [05/Sep/2022 15:47:12] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Sep/2022 15:47:12] "[36mGET /static/css/styles.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [05/Sep/2022 15:47:12] "[36mGET /static/img/bookmark.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [05/Sep/2022 15:47:12] "[36mGET /static/img/eye.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [05/Sep/2022 15:47:13] "GET /bookmarks/ HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Sep/2022 15:47:14] "[36mGET /static/css/styles.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [05/Sep/2022 15:47:14] "[33mGET /bookmarks/img/eye.png HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [05/Sep/2022 15:47:14] "[36mGET /static/img/bookmark.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [05/Sep/2022 15:47:17] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Sep/2022 15:47:17] "[36mGET /static/css/styles.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [05/Sep/2022 15:47:17] "[36mGET /static/img/bookmark.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [05/Sep/2022 15:47:17] "[36mGET /static/img/eye.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [05/Sep/2022 15:47:18] "GET /bookmarks/ HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Sep/2022 15:47:18] "[33mGET /bookmarks/img/eye.png HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [05/Sep/2022 15:47:18] "[36mGET /static/css/styles.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [05/Sep/2022 15:47:18] "[36mGET /static/img/bookmark.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [05/Sep/2022 15:47:21] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Sep/2022 15:47:21] "[36mGET /static/css/styles.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [05/Sep/2022 15:47:21] "[36mGET /static/img/bookmark.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [05/Sep/2022 15:47:21] "[36mGET /static/img/eye.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [05/Sep/2022 15:47:31] "[36mGET /static/css/styles.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [05/Sep/2022 15:47:31] "GET /static/css/styles.min.css.map HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'c:\\Users\\Georgii\\Desktop\\pr\\homework\\instahram\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 331-110-069
+INFO:werkzeug: * Detected change in 'c:\\Users\\Georgii\\Desktop\\pr\\homework\\instahram\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 331-110-069
+INFO:werkzeug: * Detected change in 'c:\\Users\\Georgii\\Desktop\\pr\\homework\\instahram\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 331-110-069
+INFO:werkzeug: * Detected change in 'c:\\Users\\Georgii\\Desktop\\pr\\homework\\instahram\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 331-110-069
+INFO:werkzeug: * Detected change in 'c:\\Users\\Georgii\\Desktop\\pr\\homework\\instahram\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 331-110-069
+INFO:werkzeug:127.0.0.1 - - [05/Sep/2022 15:51:03] "GET /bookmarks/ HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Sep/2022 15:51:03] "[33mGET /bookmarks/img/eye.png HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [05/Sep/2022 15:51:03] "[36mGET /static/img/bookmark.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [05/Sep/2022 15:51:03] "[36mGET /static/css/styles.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [05/Sep/2022 15:51:05] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Sep/2022 15:51:05] "[36mGET /static/css/styles.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [05/Sep/2022 15:51:05] "[36mGET /static/img/bookmark.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [05/Sep/2022 15:51:05] "[36mGET /static/img/eye.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [05/Sep/2022 15:51:06] "GET /bookmarks/ HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Sep/2022 15:51:06] "[33mGET /bookmarks/img/eye.png HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [05/Sep/2022 15:51:06] "[36mGET /static/css/styles.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [05/Sep/2022 15:51:06] "[36mGET /static/img/bookmark.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [05/Sep/2022 15:51:07] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Sep/2022 15:51:08] "[36mGET /static/css/styles.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [05/Sep/2022 15:51:08] "[36mGET /static/img/bookmark.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [05/Sep/2022 15:51:08] "[36mGET /static/img/eye.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [05/Sep/2022 15:51:08] "GET /bookmarks/ HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Sep/2022 15:51:09] "[33mGET /bookmarks/img/eye.png HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [05/Sep/2022 15:51:09] "[36mGET /static/css/styles.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [05/Sep/2022 15:51:09] "[36mGET /static/img/bookmark.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [05/Sep/2022 15:51:38] "GET /bookmarks/ HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Sep/2022 15:51:38] "[33mGET /bookmarks/img/eye.png HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [05/Sep/2022 15:51:38] "[36mGET /static/css/styles.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [05/Sep/2022 15:51:38] "[36mGET /static/img/bookmark.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [05/Sep/2022 15:51:39] "GET /bookmarks/ HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Sep/2022 15:51:39] "[33mGET /bookmarks/img/eye.png HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [05/Sep/2022 15:51:39] "[36mGET /static/css/styles.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [05/Sep/2022 15:51:39] "[36mGET /static/img/bookmark.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [05/Sep/2022 15:51:41] "GET /bookmarks/ HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Sep/2022 15:51:41] "[33mGET /bookmarks/img/eye.png HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [05/Sep/2022 15:51:41] "[36mGET /static/css/styles.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [05/Sep/2022 15:51:41] "[36mGET /static/img/bookmark.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [05/Sep/2022 15:51:42] "GET /bookmarks/ HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Sep/2022 15:51:42] "[33mGET /bookmarks/img/eye.png HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [05/Sep/2022 15:51:42] "[36mGET /static/css/styles.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [05/Sep/2022 15:51:42] "[36mGET /static/img/bookmark.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [05/Sep/2022 15:51:43] "GET /bookmarks/ HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Sep/2022 15:51:44] "[33mGET /bookmarks/img/eye.png HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [05/Sep/2022 15:51:44] "[36mGET /static/css/styles.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [05/Sep/2022 15:51:44] "[36mGET /static/img/bookmark.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [05/Sep/2022 15:51:45] "GET /bookmarks/ HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Sep/2022 15:51:45] "[33mGET /bookmarks/img/eye.png HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [05/Sep/2022 15:51:45] "[36mGET /static/css/styles.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [05/Sep/2022 15:51:45] "[36mGET /static/img/bookmark.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [05/Sep/2022 15:51:45] "GET /bookmarks/ HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Sep/2022 15:51:46] "[33mGET /bookmarks/img/eye.png HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [05/Sep/2022 15:51:46] "[36mGET /static/css/styles.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [05/Sep/2022 15:51:46] "[36mGET /static/img/bookmark.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [05/Sep/2022 15:51:48] "GET /bookmarks/ HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Sep/2022 15:51:48] "[33mGET /bookmarks/img/eye.png HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [05/Sep/2022 15:51:48] "[36mGET /static/css/styles.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [05/Sep/2022 15:51:48] "[36mGET /static/img/bookmark.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [05/Sep/2022 15:51:50] "GET /bookmarks/ HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Sep/2022 15:51:50] "[33mGET /bookmarks/img/eye.png HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [05/Sep/2022 15:51:50] "[36mGET /static/css/styles.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [05/Sep/2022 15:51:50] "[36mGET /static/img/bookmark.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [05/Sep/2022 15:52:03] "GET /bookmarks/ HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Sep/2022 15:52:04] "[33mGET /bookmarks/img/eye.png HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [05/Sep/2022 15:52:04] "[36mGET /static/css/styles.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [05/Sep/2022 15:52:04] "[36mGET /static/img/bookmark.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [05/Sep/2022 15:52:05] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Sep/2022 15:52:05] "[36mGET /static/img/bookmark.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [05/Sep/2022 15:52:05] "[36mGET /static/css/styles.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [05/Sep/2022 15:52:05] "[36mGET /static/img/eye.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [05/Sep/2022 15:52:08] "GET /bookmarks/ HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Sep/2022 15:52:08] "[33mGET /bookmarks/img/eye.png HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [05/Sep/2022 15:52:08] "[36mGET /static/css/styles.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [05/Sep/2022 15:52:08] "[36mGET /static/img/bookmark.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [05/Sep/2022 15:53:40] "GET /bookmarks/ HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Sep/2022 15:53:40] "[33mGET /bookmarks/img/eye.png HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [05/Sep/2022 15:53:40] "[36mGET /static/css/styles.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [05/Sep/2022 15:53:40] "[36mGET /static/img/bookmark.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [05/Sep/2022 15:53:44] "GET /bookmarks/ HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Sep/2022 15:53:44] "[33mGET /bookmarks/img/eye.png HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [05/Sep/2022 15:53:44] "[36mGET /static/css/styles.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [05/Sep/2022 15:53:44] "[36mGET /static/img/bookmark.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [05/Sep/2022 15:53:45] "GET /bookmarks/ HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Sep/2022 15:53:45] "[33mGET /bookmarks/img/eye.png HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [05/Sep/2022 15:53:45] "[36mGET /static/css/styles.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [05/Sep/2022 15:53:45] "[36mGET /static/img/bookmark.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [05/Sep/2022 15:53:45] "GET /bookmarks/ HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Sep/2022 15:53:46] "[33mGET /bookmarks/img/eye.png HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [05/Sep/2022 15:53:46] "[36mGET /static/css/styles.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [05/Sep/2022 15:53:46] "[36mGET /static/img/bookmark.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [05/Sep/2022 15:53:47] "GET /posts/2 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Sep/2022 15:53:47] "[36mGET /static/css/styles.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [05/Sep/2022 15:53:47] "[36mGET /static/img/bookmark.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [05/Sep/2022 15:53:47] "[36mGET /static/img/eye.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [05/Sep/2022 15:53:51] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Sep/2022 15:53:51] "[36mGET /static/css/styles.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [05/Sep/2022 15:53:51] "[36mGET /static/img/bookmark.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [05/Sep/2022 15:53:51] "[36mGET /static/img/eye.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [05/Sep/2022 15:53:55] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Sep/2022 15:53:55] "[36mGET /static/css/styles.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [05/Sep/2022 15:53:55] "[36mGET /static/img/bookmark.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [05/Sep/2022 15:53:55] "[36mGET /static/img/eye.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [05/Sep/2022 15:53:56] "GET /bookmarks/ HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Sep/2022 15:53:56] "[33mGET /bookmarks/img/eye.png HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [05/Sep/2022 15:53:56] "[36mGET /static/css/styles.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [05/Sep/2022 15:53:56] "[36mGET /static/img/bookmark.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [05/Sep/2022 15:53:59] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Sep/2022 15:53:59] "[36mGET /static/css/styles.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [05/Sep/2022 15:53:59] "[36mGET /static/img/bookmark.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [05/Sep/2022 15:53:59] "[36mGET /static/img/eye.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [05/Sep/2022 15:54:04] "GET /bookmarks/ HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Sep/2022 15:54:04] "[33mGET /bookmarks/img/eye.png HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [05/Sep/2022 15:54:04] "[36mGET /static/css/styles.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [05/Sep/2022 15:54:04] "[36mGET /static/img/bookmark.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [05/Sep/2022 15:54:05] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Sep/2022 15:54:05] "[36mGET /static/css/styles.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [05/Sep/2022 15:54:05] "[36mGET /static/img/bookmark.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [05/Sep/2022 15:54:05] "[36mGET /static/img/eye.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [05/Sep/2022 15:54:08] "GET /posts/1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Sep/2022 15:54:08] "[36mGET /static/css/styles.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [05/Sep/2022 15:54:08] "[36mGET /static/img/bookmark.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [05/Sep/2022 15:54:08] "[36mGET /static/img/eye.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [05/Sep/2022 15:54:11] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Sep/2022 15:54:11] "[36mGET /static/css/styles.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [05/Sep/2022 15:54:11] "[36mGET /static/img/bookmark.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [05/Sep/2022 15:54:11] "[36mGET /static/img/eye.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [05/Sep/2022 15:54:13] "GET /posts/2 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Sep/2022 15:54:13] "[36mGET /static/css/styles.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [05/Sep/2022 15:54:13] "[36mGET /static/img/bookmark.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [05/Sep/2022 15:54:13] "[36mGET /static/img/eye.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [05/Sep/2022 15:54:15] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Sep/2022 15:54:15] "[36mGET /static/css/styles.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [05/Sep/2022 15:54:15] "[36mGET /static/img/bookmark.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [05/Sep/2022 15:54:15] "[36mGET /static/img/eye.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [05/Sep/2022 15:54:18] "GET /posts/3 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Sep/2022 15:54:18] "[36mGET /static/css/styles.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [05/Sep/2022 15:54:18] "[36mGET /static/img/bookmark.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [05/Sep/2022 15:54:18] "[36mGET /static/img/eye.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [05/Sep/2022 15:54:21] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Sep/2022 15:54:21] "[36mGET /static/css/styles.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [05/Sep/2022 15:54:21] "[36mGET /static/img/bookmark.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [05/Sep/2022 15:54:21] "[36mGET /static/img/eye.png HTTP/1.1[0m" 304 -
+INFO:werkzeug: * Detected change in 'c:\\Users\\Georgii\\Desktop\\pr\\homework\\instahram\\project\\main\\views.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 331-110-069
+INFO:werkzeug: * Detected change in 'c:\\Users\\Georgii\\Desktop\\pr\\homework\\instahram\\project\\main\\views.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 331-110-069
+INFO:werkzeug: * Detected change in 'c:\\Users\\Georgii\\Desktop\\pr\\homework\\instahram\\project\\main\\views.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 331-110-069
+INFO:werkzeug:127.0.0.1 - - [05/Sep/2022 16:00:16] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Sep/2022 16:00:16] "[36mGET /static/img/bookmark.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [05/Sep/2022 16:00:16] "[36mGET /static/img/eye.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [05/Sep/2022 16:00:16] "[36mGET /static/css/styles.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [05/Sep/2022 16:00:20] "GET /bookmarks/ HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Sep/2022 16:00:20] "[33mGET /bookmarks/img/eye.png HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [05/Sep/2022 16:00:20] "[36mGET /static/css/styles.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [05/Sep/2022 16:00:20] "[36mGET /static/img/bookmark.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [05/Sep/2022 16:00:22] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Sep/2022 16:00:22] "[36mGET /static/css/styles.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [05/Sep/2022 16:00:22] "[36mGET /static/img/bookmark.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [05/Sep/2022 16:00:22] "[36mGET /static/img/eye.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [05/Sep/2022 16:00:24] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Sep/2022 16:00:24] "[36mGET /static/img/bookmark.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [05/Sep/2022 16:00:24] "[36mGET /static/css/styles.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [05/Sep/2022 16:00:24] "[36mGET /static/img/eye.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [05/Sep/2022 16:00:26] "GET /bookmarks/ HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Sep/2022 16:00:27] "[33mGET /bookmarks/img/eye.png HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [05/Sep/2022 16:00:27] "[36mGET /static/css/styles.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [05/Sep/2022 16:00:27] "[36mGET /static/img/bookmark.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [05/Sep/2022 16:00:29] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Sep/2022 16:00:29] "[36mGET /static/css/styles.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [05/Sep/2022 16:00:29] "[36mGET /static/img/bookmark.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [05/Sep/2022 16:00:29] "[36mGET /static/img/eye.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [05/Sep/2022 16:00:57] "[36mGET /static/css/styles.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [05/Sep/2022 16:00:57] "GET /static/css/styles.min.css.map HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'c:\\Users\\Georgii\\Desktop\\pr\\homework\\instahram\\project\\bookmarks\\utils.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 331-110-069
+INFO:werkzeug:127.0.0.1 - - [05/Sep/2022 16:05:14] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Sep/2022 16:05:14] "[36mGET /static/css/styles.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [05/Sep/2022 16:05:14] "[36mGET /static/img/eye.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [05/Sep/2022 16:05:14] "[36mGET /static/img/bookmark.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [05/Sep/2022 16:05:28] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Sep/2022 16:05:28] "[36mGET /static/css/styles.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [05/Sep/2022 16:05:28] "[36mGET /static/img/bookmark.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [05/Sep/2022 16:05:28] "[36mGET /static/img/eye.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [05/Sep/2022 16:05:32] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Sep/2022 16:05:32] "[36mGET /static/css/styles.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [05/Sep/2022 16:05:32] "[36mGET /static/img/bookmark.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [05/Sep/2022 16:05:32] "[36mGET /static/img/eye.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [05/Sep/2022 16:05:32] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Sep/2022 16:05:33] "[36mGET /static/css/styles.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [05/Sep/2022 16:05:33] "[36mGET /static/img/bookmark.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [05/Sep/2022 16:05:33] "[36mGET /static/img/eye.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [05/Sep/2022 16:06:55] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Sep/2022 16:06:56] "[36mGET /static/css/styles.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [05/Sep/2022 16:06:56] "[36mGET /static/img/bookmark.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [05/Sep/2022 16:06:56] "[36mGET /static/img/eye.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [05/Sep/2022 16:06:57] "GET /posts/1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Sep/2022 16:06:57] "[36mGET /static/css/styles.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [05/Sep/2022 16:06:57] "[36mGET /static/img/bookmark.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [05/Sep/2022 16:06:57] "[36mGET /static/img/eye.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [05/Sep/2022 16:10:00] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Sep/2022 16:10:00] "[36mGET /static/css/styles.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [05/Sep/2022 16:10:00] "[36mGET /static/img/bookmark.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [05/Sep/2022 16:10:00] "[36mGET /static/img/eye.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [05/Sep/2022 16:10:05] "[32mGET /bookmarks/add/1 HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [05/Sep/2022 16:10:05] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Sep/2022 16:10:05] "[36mGET /static/css/styles.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [05/Sep/2022 16:10:05] "[36mGET /static/img/bookmark.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [05/Sep/2022 16:10:05] "[36mGET /static/img/eye.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [05/Sep/2022 16:10:08] "[32mGET /bookmarks/add/1 HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [05/Sep/2022 16:10:08] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Sep/2022 16:10:08] "[36mGET /static/css/styles.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [05/Sep/2022 16:10:08] "[36mGET /static/img/bookmark.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [05/Sep/2022 16:10:08] "[36mGET /static/img/eye.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [05/Sep/2022 16:10:11] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Sep/2022 16:10:11] "[36mGET /static/css/styles.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [05/Sep/2022 16:10:11] "[36mGET /static/img/bookmark.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [05/Sep/2022 16:10:11] "[36mGET /static/img/eye.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [05/Sep/2022 16:10:13] "[32mGET /bookmarks/add/3 HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [05/Sep/2022 16:10:13] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Sep/2022 16:10:13] "[36mGET /static/css/styles.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [05/Sep/2022 16:10:13] "[36mGET /static/img/bookmark.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [05/Sep/2022 16:10:13] "[36mGET /static/img/eye.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [05/Sep/2022 16:10:17] "[32mGET /bookmarks/add/3 HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [05/Sep/2022 16:10:17] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Sep/2022 16:10:17] "[36mGET /static/css/styles.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [05/Sep/2022 16:10:17] "[36mGET /static/img/bookmark.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [05/Sep/2022 16:10:17] "[36mGET /static/img/eye.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [05/Sep/2022 16:10:20] "[32mGET /bookmarks/add/4 HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [05/Sep/2022 16:10:20] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Sep/2022 16:10:20] "[36mGET /static/css/styles.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [05/Sep/2022 16:10:20] "[36mGET /static/img/bookmark.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [05/Sep/2022 16:10:20] "[36mGET /static/img/eye.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [05/Sep/2022 16:10:22] "GET /bookmarks/ HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Sep/2022 16:10:22] "[36mGET /static/css/styles.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [05/Sep/2022 16:10:22] "[33mGET /bookmarks/img/eye.png HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [05/Sep/2022 16:10:22] "[36mGET /static/img/bookmark.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [05/Sep/2022 16:10:23] "[32mGET /bookmarks/remove/2 HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [05/Sep/2022 16:10:23] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Sep/2022 16:10:23] "[36mGET /static/css/styles.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [05/Sep/2022 16:10:23] "[36mGET /static/img/bookmark.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [05/Sep/2022 16:10:23] "[36mGET /static/img/eye.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [05/Sep/2022 16:10:25] "GET /bookmarks/ HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Sep/2022 16:10:25] "[36mGET /static/css/styles.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [05/Sep/2022 16:10:25] "[33mGET /bookmarks/img/eye.png HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [05/Sep/2022 16:10:25] "[36mGET /static/img/bookmark.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [05/Sep/2022 16:10:25] "[32mGET /bookmarks/remove/1 HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [05/Sep/2022 16:10:25] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Sep/2022 16:10:26] "[36mGET /static/css/styles.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [05/Sep/2022 16:10:26] "[36mGET /static/img/bookmark.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [05/Sep/2022 16:10:26] "[36mGET /static/img/eye.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [05/Sep/2022 16:10:26] "GET /bookmarks/ HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Sep/2022 16:10:27] "[36mGET /static/css/styles.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [05/Sep/2022 16:10:27] "[33mGET /bookmarks/img/eye.png HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [05/Sep/2022 16:10:27] "[36mGET /static/img/bookmark.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [05/Sep/2022 16:10:27] "[32mGET /bookmarks/remove/3 HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [05/Sep/2022 16:10:27] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Sep/2022 16:10:27] "[36mGET /static/css/styles.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [05/Sep/2022 16:10:27] "[36mGET /static/img/bookmark.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [05/Sep/2022 16:10:27] "[36mGET /static/img/eye.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [05/Sep/2022 16:10:28] "GET /bookmarks/ HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Sep/2022 16:10:28] "[36mGET /static/css/styles.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [05/Sep/2022 16:10:28] "[33mGET /bookmarks/img/eye.png HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [05/Sep/2022 16:10:28] "[36mGET /static/img/bookmark.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [05/Sep/2022 16:10:29] "[32mGET /bookmarks/remove/4 HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [05/Sep/2022 16:10:29] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Sep/2022 16:10:29] "[36mGET /static/css/styles.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [05/Sep/2022 16:10:29] "[36mGET /static/img/bookmark.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [05/Sep/2022 16:10:29] "[36mGET /static/img/eye.png HTTP/1.1[0m" 304 -
+INFO:werkzeug: * Detected change in 'c:\\Users\\Georgii\\Desktop\\pr\\homework\\instahram\\project\\bookmarks\\views.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 331-110-069
+INFO:werkzeug: * Detected change in 'c:\\Users\\Georgii\\Desktop\\pr\\homework\\instahram\\project\\bookmarks\\views.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 331-110-069
+INFO:werkzeug: * Detected change in 'c:\\Users\\Georgii\\Desktop\\pr\\homework\\instahram\\project\\bookmarks\\views.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 331-110-069
+INFO:werkzeug:127.0.0.1 - - [05/Sep/2022 16:13:02] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Sep/2022 16:13:02] "[36mGET /static/css/styles.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [05/Sep/2022 16:13:02] "[36mGET /static/img/eye.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [05/Sep/2022 16:13:02] "[36mGET /static/img/bookmark.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [05/Sep/2022 16:13:05] "[32mGET /bookmarks/add/1 HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [05/Sep/2022 16:13:05] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Sep/2022 16:13:05] "[36mGET /static/css/styles.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [05/Sep/2022 16:13:05] "[36mGET /static/img/bookmark.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [05/Sep/2022 16:13:05] "[36mGET /static/img/eye.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [05/Sep/2022 16:13:10] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Sep/2022 16:13:10] "[36mGET /static/css/styles.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [05/Sep/2022 16:13:10] "[36mGET /static/img/bookmark.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [05/Sep/2022 16:13:10] "[36mGET /static/img/eye.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [05/Sep/2022 16:13:11] "[32mGET /bookmarks/add/2 HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [05/Sep/2022 16:13:11] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Sep/2022 16:13:12] "[36mGET /static/css/styles.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [05/Sep/2022 16:13:12] "[36mGET /static/img/bookmark.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [05/Sep/2022 16:13:12] "[36mGET /static/img/eye.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [05/Sep/2022 16:13:14] "[32mGET /bookmarks/add/8 HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [05/Sep/2022 16:13:14] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Sep/2022 16:13:14] "[36mGET /static/css/styles.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [05/Sep/2022 16:13:14] "[36mGET /static/img/bookmark.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [05/Sep/2022 16:13:14] "[36mGET /static/img/eye.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [05/Sep/2022 16:13:16] "GET /bookmarks/ HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Sep/2022 16:13:16] "[36mGET /static/css/styles.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [05/Sep/2022 16:13:16] "[33mGET /bookmarks/img/eye.png HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [05/Sep/2022 16:13:16] "[36mGET /static/img/bookmark.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [05/Sep/2022 16:13:22] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Sep/2022 16:13:22] "[36mGET /static/css/styles.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [05/Sep/2022 16:13:22] "[36mGET /static/img/bookmark.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [05/Sep/2022 16:13:22] "[36mGET /static/img/eye.png HTTP/1.1[0m" 304 -

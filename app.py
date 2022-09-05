@@ -15,5 +15,16 @@ app.static_folder = app.root_path + "/project/static/"
 logging.basicConfig(filename="api.log", level=logging.INFO, encoding="utf-8")
 logging.Formatter("%(asctime)s : %(levelname)s : %(message)s")
 
+
+@app.errorhandler(404)
+def not_found_1(e):
+    return "Not found", 404
+
+
+@app.errorhandler(500)
+def not_found_2(e):
+    return "Internal Server Error", 500
+
+
 if __name__ == "__main__":
     app.run(debug=True)
