@@ -432,7 +432,8 @@ textarea {
 }
 
 .item__bookmark-btn.active,
-.item__bookmark-btn:hover {
+.item__bookmark-btn:hover,
+.item__bookmark-btn.added {
 	opacity: 1
 }
 

@@ -74,8 +74,31 @@
           </div>
           <div class="item__post-bottom">
             <a href="/posts/{{ post.pk }}" class="item__btn-more">Подробнее</a>
+            {% if post.is_bookmark %}
+            <a
+              href="/bookmarks/remove/{{ post.pk }}"
+              class="item__bookmark-link"
+            >
+              <button
+                href="/bookmarks/remove/{{ post.pk }}"
+                type="button"
+                class="item__bookmark-btn added"
+              >
+                <img
+                  src="/static/img/bookmark.png"
+                  alt=""
+                  class="item__bookmark-icon"
+                  width="24"
+                />
+              </button>
+            </a>
+            {% else %}
             <a href="/bookmarks/add/{{ post.pk }}" class="item__bookmark-link">
-              <button type="button" class="item__bookmark-btn">
+              <button
+                href="/bookmarks/"
+                type="button"
+                class="item__bookmark-btn"
+              >
                 <img
                   src="/static/img/bookmark.png"
                   alt=""
@@ -83,6 +106,7 @@
                   width="24"
                 /></button
             ></a>
+            {% endif %}
           </div>
         </div>
         {% endfor %}
