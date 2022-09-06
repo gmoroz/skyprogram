@@ -15,7 +15,7 @@ def page_bookmark_add(post_id):
 @bookmarks_blueprint.route("/bookmarks/remove/<post_id>")
 def page_bookmark_remove(post_id):
     remove_bookmark(post_id)
-    return redirect("/bookmarks/", code=302)
+    return redirect("/", code=302)
 
 
 @bookmarks_blueprint.route("/bookmarks/")

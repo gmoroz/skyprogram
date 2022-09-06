@@ -27,7 +27,7 @@
       "views_count": 187,
       "likes_count": 67,
       "pk": 3,
-      "is_bookmark": true
+      "is_bookmark": false
    },
    {
       "poster_name": "larry",
@@ -37,7 +37,7 @@
       "views_count": 366,
       "likes_count": 198,
       "pk": 4,
-      "is_bookmark": true
+      "is_bookmark": false
    },
    {
       "poster_name": "leo",
@@ -67,7 +67,7 @@
       "views_count": 166,
       "likes_count": 76,
       "pk": 7,
-      "is_bookmark": false
+      "is_bookmark": true
    },
    {
       "poster_name": "larry",
@@ -77,6 +77,6 @@
       "views_count": 141,
       "likes_count": 45,
       "pk": 8,
-      "is_bookmark": false
+      "is_bookmark": true
    }
 ]
