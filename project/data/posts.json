@@ -17,7 +17,7 @@
       "views_count": 233,
       "likes_count": 101,
       "pk": 2,
-      "is_bookmark": true
+      "is_bookmark": false
    },
    {
       "poster_name": "hank",
@@ -67,7 +67,7 @@
       "views_count": 166,
       "likes_count": 76,
       "pk": 7,
-      "is_bookmark": true
+      "is_bookmark": false
    },
    {
       "poster_name": "larry",
