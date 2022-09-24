@@ -1,12 +1,12 @@
 import logging
 from flask import Blueprint, render_template, request
 from project.functions import get_bookmarks_count
-from project.utils import (
+from project.post_helpers import (
     get_comments_by_post_id,
     get_post_all,
     get_post_by_pk,
     get_posts_by_user,
-    get_suffix,
+    get_string_with_suffix,
     search_by_tag,
     search_for_posts,
 )
@@ -31,7 +31,7 @@ def show_post_page(post_id):
             "post.html",
             post=post,
             comments=comments,
-            comments_count=get_suffix(len(comments)),
+            comments_count=get_string_with_suffix(len(comments)),
         )
     except ValueError:
         return "Такого поста нет"

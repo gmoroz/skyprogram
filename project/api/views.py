@@ -1,5 +1,5 @@
 from flask import Blueprint, jsonify
-from project.utils import get_post_all, get_post_by_pk
+from project.post_helpers import get_post_all, get_post_by_pk
 
 api_blueprint = Blueprint("api_blueprint", __name__)
 

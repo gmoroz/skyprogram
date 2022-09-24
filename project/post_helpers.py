@@ -58,7 +58,7 @@ def get_post_by_pk(pk: str) -> dict:
     return {}
 
 
-def get_suffix(comments_count: int) -> str:
+def get_string_with_suffix(comments_count: int) -> str:
     # 1 комментарий 2,3,4, комментария 5-20 комментариев 21 комментарий
     checker = comments_count % 100
     if 5 <= checker <= 20:

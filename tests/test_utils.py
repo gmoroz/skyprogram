@@ -1,11 +1,11 @@
 import pytest
-from project.utils import (
+from project.post_helpers import (
     get_comments_by_post_id,
     get_post_all,
     get_post_by_pk,
     get_posts_by_user,
     search_for_posts,
-    get_suffix,
+    get_string_with_suffix,
 )
 
 
@@ -63,9 +63,9 @@ class TestUtils:
         assert post.get("likes_count") == 154
 
     def test_get_suffix(self):
-        assert "1 комментарий" == get_suffix(1)
-        assert "3 комментария" == get_suffix(3)
-        assert "5 комментариев" == get_suffix(5)
-        assert "9 комментариев" == get_suffix(9)
-        assert "21 комментарий" == get_suffix(21)
-        assert "22 комментария" == get_suffix(22)
+        assert "1 комментарий" == get_string_with_suffix(1)
+        assert "3 комментария" == get_string_with_suffix(3)
+        assert "5 комментариев" == get_string_with_suffix(5)
+        assert "9 комментариев" == get_string_with_suffix(9)
+        assert "21 комментарий" == get_string_with_suffix(21)
+        assert "22 комментария" == get_string_with_suffix(22)

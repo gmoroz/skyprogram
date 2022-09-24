@@ -1,6 +1,6 @@
 import json
 from project.functions import load_data
-from project.utils import get_post_by_pk
+from project.post_helpers import get_post_by_pk
 import copy
 
 
