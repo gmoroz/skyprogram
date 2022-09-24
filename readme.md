@@ -8,11 +8,15 @@
 
 Выводится сжатая версия поста, можно раскрыть весь или добавить его в закладки
 ![posts](https://github.com/R0ryMercury/skyprogram/blob/master/readme_files/posts.gif)
-![bookmarks99cd41b2f14e8205.png](https://s5.gifyu.com/images/bookmarks99cd41b2f14e8205.png)
 
 ## Подробный пост
 
 ![post20b6e172839e5af7.png](https://s5.gifyu.com/images/post20b6e172839e5af7.png)
+
+## Закладки
+
+Страничка, на которую попадают отмеченные посты, добавленные в закладки.
+![bookmarks99cd41b2f14e8205.png](https://s5.gifyu.com/images/bookmarks99cd41b2f14e8205.png)
 
 ## Поиск
 
@@ -27,8 +31,3 @@
 
 Когда мы нажимаем на хештег в в тексте, то переходим на страничку со всеми постами, где такой же хештег встречается.
 ![tags.png](https://s4.gifyu.com/images/tags.png)
-
-## Закладки
-
-Страничка, на которую попадают отмеченные посты, добавленные в закладки.
-![bookmarks99cd41b2f14e8205.png](https://s5.gifyu.com/images/bookmarks99cd41b2f14e8205.png)
