@@ -11,7 +11,7 @@
 
 ## Подробный пост
 
-![post20b6e172839e5af7.png](https://s5.gifyu.com/images/post20b6e172839e5af7.png)
+![post.png](https://s4.gifyu.com/images/post.png)
 
 ## Закладки
 
