@@ -32,9 +32,4 @@
 ## Закладки
 
 Страничка, на которую попадают отмеченные посты. Со странички можно удалять посты.
-<<<<<<< HEAD
 ![bookmarks99cd41b2f14e8205.png](https://s5.gifyu.com/images/bookmarks99cd41b2f14e8205.png)
-=======
-![bookmarks99cd41b2f14e8205.png](https://s5.gifyu.com/images/bookmarks99cd41b2f14e8205.png)
-
-> > > > > > > d478a533d0bfef41c841af8cfcfe146f17e938bb
