@@ -4,10 +4,11 @@
 
 # Описание проекта
 
-## Лента
+## Лента постов
 
-Список всех постов. У каждого выводится автор, укороченный до 50 символов текст, количество просмотров , ссылка, которая ведет на пост. В шапочке ссылка флажок(закладки).
+Выводится сжатая версия поста, можно раскрыть весь или добавить его в закладки
 ![posts](https://github.com/R0ryMercury/skyprogram/blob/master/readme_files/posts.gif)
+![bookmarks99cd41b2f14e8205.png](https://s5.gifyu.com/images/bookmarks99cd41b2f14e8205.png)
 
 ## Подробный пост
 
@@ -15,7 +16,7 @@
 
 ## Поиск
 
-![search996aed6b16598be2.png](https://s4.gifyu.com/images/search996aed6b16598be2.png)
+![search821afea4e56e0500.png](https://s4.gifyu.com/images/search821afea4e56e0500.png)
 
 ## Все посты пользователя
 
