@@ -7,7 +7,7 @@
 ## Лента постов
 
 Выводится сжатая версия поста, можно раскрыть весь или добавить его в закладки
-![posts](https://github.com/R0ryMercury/skyprogram/blob/master/readme_files/posts.gif)
+![posts](https://github.com/gmoroz/skyprogram/blob/master/readme_files/posts.gif)
 
 ## Подробный пост
 
